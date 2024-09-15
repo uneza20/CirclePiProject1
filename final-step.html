@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Step - Circle App</title>
+    <link rel="stylesheet" href="final-step.css"> <!-- Make sure to link your CSS -->
+</head>
+<body>
+    <div class="final-step-page">
+        <button class="back-button" onclick="goBack()">&#x2190; Back</button>
+
+        <div class="progress-bar">
+            <div class="progress-step active">Setup Autopay</div>
+            <div class="progress-step active">Setup Autopay</div>
+            <div class="progress-step active">KYC & Move-in</div>
+        </div>
+
+        <h2>One step away <span class="sparkles">✨</span></h2>
+        <h3>from your dream home</h3>
+
+        <div class="rent-info">
+            <div class="circle-logo">
+                <!-- Insert your logo or icon here -->
+                <img src="images/circlelogo.png" alt="Circle Logo">
+            </div>
+            <h4>Rent converted to Zero-Cost EMI</h4>
+            <p>Co-living partner: <strong>Rent-OK</strong></p>
+            <p>Payment Amount: <strong>INR XXXX.00</strong></p>
+            <p>Monthly rent (Zero-Cost EMI): <strong>10,000 INR/mo</strong></p>
+            <p>Rent cycle (EMI Duration): <strong>5 Months</strong></p>
+        </div>
+
+        <button class="zero-cost-emi-button">Zero COST EMI</button>
+
+        <p class="legal-note">
+            By clicking on next, you acknowledge that you have read and agreed to the terms and conditions.
+        </p>
+
+        <a href="#" class="continue-button">Continue &#x2794;</a>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

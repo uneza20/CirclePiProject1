@@ -1,0 +1,182 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9fb; /* Light background */
+    margin: 0;
+    padding: 0;
+}
+
+.circle-payment-page {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading styles */
+h1.circle-app-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333; /* Dark gray text */
+}
+
+h2.circle-app-subtitle {
+    font-size: 18px;
+    color: #007bff; /* Bright blue subtitle */
+    margin-bottom: 10px;
+}
+
+/* Description text */
+.step-description {
+    font-size: 14px;
+    color: #666666; /* Medium gray text */
+    margin-bottom: 20px;
+}
+
+/* Steps Section */
+.steps {
+    margin-bottom: 20px;
+}
+
+.step {
+    background-color:#a8dfea;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); 
+    margin-bottom: 15px;
+}
+
+.step h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555555; 
+    margin-bottom: 5px;
+}
+
+.step p {
+    font-size: 14px;
+    color: #888888; /* Lighter gray for step details */
+    margin: 5px 0;
+}
+
+/* Button styles */
+.get-started-button,
+.go-back-button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Get Started Button */
+.get-started-button {
+    background-color: #007bff; /* Bright blue background */
+    color: #ffffff; /* White text */
+    margin-bottom: 10px;
+}
+
+.get-started-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Go Back Button */
+.go-back-button {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #007bff; /* Blue text */
+}
+
+.go-back-button:hover {
+    background-color: #e0e0e0; /* Slightly darker gray on hover */
+}
+
+/* Special Styles for the Get Started Section */
+.get-started {
+    background-color: #28a745; /* Green background */
+    color: #ffffff; /* White text */
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 12px 30px;
+}
+
+.get-started:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Special Color Highlights */
+.zero-security {
+    color: #007bff; /* Accent color for important text */
+}
+
+.move-in {
+    font-weight: bold;
+    color: #28a745; /* Green for move-in text */
+}
+
+.salary-cover {
+    color: #007bff; /* Blue for emphasis on salary cover */
+}
+
+/* Approved section */
+.approved-section h3 {
+    font-size: 18px;
+    color: #007bff; /* Bright blue */
+}
+
+.approved-box {
+    background-color: #28a745; /* Green for the approved box */
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.approved-box .approved-check {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.approved-details li {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 6px;
+}
+
+/* Pay Button Styling */
+.pay-button {
+    background-color: #007bff; /* Bright blue button */
+    color: #ffffff; /* White text */
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pay-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Checkbox and Terms */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.terms {
+    font-size: 12px;
+    color: #666666;
+    text-align: left;
+}
+

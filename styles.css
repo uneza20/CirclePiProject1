@@ -1,0 +1,242 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+
+h2, h3, p {
+    margin: 0;
+}
+
+button {
+    background-color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Search Results Section */
+.search-results {
+    padding: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.search-bar button {
+    margin-left: 8px;
+}
+
+.property-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.property-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+.property-info h3 {
+    font-size: 1.2em;
+    margin-bottom: 4px;
+}
+
+.property-info p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h2, h3, p {
+    margin: 0;
+    color: #333;
+}
+
+button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Transaction Review Section */
+.transaction-review {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+/* Back Button */
+.back-button {
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: #007bff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.back-button:hover {
+    background-color: #f0f0f5;
+}
+
+/* Property Summary */
+.property-summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.property-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    margin-right: 12px;
+}
+
+.property-info h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.property-info p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Period Selection */
+.period-selection {
+    margin-bottom: 20px;
+}
+
+.period-selection h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.period-btn {
+    padding: 10px 16px;
+    margin-right: 8px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    font-size: 1em;
+}
+
+.period-btn.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Approved Section */
+.approved-section {
+    background-color: #f9fbff;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.approved-box {
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    color: #007bff;
+    margin-bottom: 16px;
+}
+
+.approved-check {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.approved-details {
+    list-style-type: none;
+    padding: 0;
+}
+
+.approved-details li {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.approved-details li span {
+    color: #007bff;
+    margin-right: 8px;
+}
+
+.zero-security {
+    color: #007bff;
+}
+
+.move-in {
+    color: #007bff;
+}
+
+.salary-cover {
+    color: #007bff;
+}
+
+/* Pay Button */
+.pay-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 30px;
+    border: none;
+}
+
+.pay-button:hover {
+    background-color: #0056b3;
+}

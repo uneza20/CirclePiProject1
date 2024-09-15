@@ -1,0 +1,100 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle App Payment</title>
+    <link rel="stylesheet" href="circle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rent at <span>Zero security deposit</span></h1>
+        <p class="steps">Set-up No Cost EMI in 3 steps</p>
+
+       
+        <ul class="progress-steps">
+            <li class="active">
+                <span class="step-number">1</span>
+                <div class="step-content">
+                    <span class="step-label">Eligibility check</span>
+                    <p class="step-details">Basic Details (PAN & DOB), Work Details</p>
+                </div>
+            </li>
+            <li>
+                <span class="step-number">2</span>
+                <div class="step-content">
+                    <span class="step-label">Setup AutoPay</span>
+                    <p class="step-details">Bank Details, Identity Verification</p>
+                </div>
+            </li>
+            <li>
+                <span class="step-number">3</span>
+                <div class="step-content">
+                    <span class="step-label">Move-In</span>
+                    <p class="step-details">You are ready to move-in!</p>
+                </div>
+            </li>
+        </ul>
+
+        
+        <div class="terms">
+            <input type="checkbox" id="terms" name="terms">
+            <label for="terms">By clicking this, you agree to our <a href="#">terms and conditions</a> and <a href="#">privacy policy</a></label>
+        </div>
+
+       
+        <button class="get-started-btn">Get Started</button>
+
+       
+        <a href="transaction.html" class="go-back">Go Back</a>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle App Payment</title>
+    <link rel="stylesheet" href="circle.css"> <!-- Linking the CSS -->
+</head>
+<body>
+    <div class="circle-payment-page">
+        <h1 class="circle-app-title">Circle App</h1>
+        <h2 class="circle-app-subtitle">Rent at Zero security deposit</h2>
+
+        <p class="step-description">Set-up No Cost EMI in 3 steps:</p>
+
+        <div class="steps">
+            <div class="step">
+                <h3>1. Eligibility Check</h3>
+                <p>Basic Details: PAN & DOB</p>
+                <p>Work Details: Employment details</p>
+            </div>
+            <div class="step">
+                <h3>2. Setup AutoPay</h3>
+                <p>Bank Details: Salary account details</p>
+                <p>Identity Verification: Selfie & Aadhaar KYC</p>
+            </div>
+            <div class="step">
+                <h3>3. Move-In</h3>
+                <p>You are ready to move-in!</p>
+            </div>
+        </div>
+
+        <button class="get-started-button" onclick="redirectToFinalPage()">Get Started</button>
+        <a href="transaction.html" class="go-back-button">Go Back</a>
+    </div>
+
+    <script>
+        // Redirect function to the final page
+        function redirectToFinalPage() {
+            window.location.href = "final-step.html";  // Ensure the correct final page is used
+        }
+    </script>
+</body>
+</html>

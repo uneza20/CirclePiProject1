@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.property-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Back Button */
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Property Header */
+.property-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.property-header img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.property-info h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.property-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Property Description */
+.property-description {
+    margin-bottom: 20px;
+}
+
+.property-description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.property-description p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Amenities */
+.amenities {
+    margin-bottom: 20px;
+}
+
+.amenities h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.amenities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.amenities li {
+    background: #eee;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Contact Information */
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #666;
+}

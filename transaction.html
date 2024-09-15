@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Review</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Transaction Review Section -->
+    <div class="transaction-review">
+        <!-- Back Button -->
+        <button class="back-button" onclick="goBack()">&#x2190; Back</button>
+        <h2>Transaction Review</h2>
+
+        <!-- Property Summary -->
+        <div class="property-summary">
+            <img src="images/sky.jpeg" alt="Sky Dandelions Apartment" class="property-image">
+            <div class="property-info">
+                <h3>Sky Dandelions Apartment</h3>
+                <p>Sector 28, Gurgaon</p>
+                <p>&#8377; 22,020</p>
+            </div>
+        </div>
+
+        <!-- Period Selection -->
+        <div class="period-selection">
+            <h3>Select Period</h3>
+            <button class="period-btn">3 months</button>
+            <button class="period-btn active">6 months</button>
+            <button class="period-btn">9 months</button>
+        </div>
+
+        <!-- Approved Section -->
+        <div class="approved-section">
+            <h3>Rent at <span class="zero-security">Zero Security Deposit</span></h3>
+            <div class="approved-box">
+                <div class="approved-check">&#x2714;</div>
+                <p>Approved</p>
+            </div>
+
+            <ul class="approved-details">
+                <li><span>&#x2714;</span> New Rent Offer: &#8377; 20,000</li>
+                <li><span>&#x2714;</span> Zero security deposit <span class="move-in">Move-In</span></li>
+                <li><span>&#x2714;</span> 3-Months <span class="salary-cover">Salary Cover</span></li>
+            </ul>
+        </div>
+
+        <!-- Pay Button -->
+        <button class="pay-button" onclick="redirectToPayment()">Pay with Circle</button>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function redirectToPayment() {
+            window.location.href = "circle-payment.html";  // Change this to the correct path if needed
+        }
+    </script>
+</body>
+</html>
+
